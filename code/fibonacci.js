@@ -1,6 +1,6 @@
 function fibonacci(number){
-if(number===-1){
-    
+if(number<0){
+    return -1;
 }
 
 if(number===0||number===1){
